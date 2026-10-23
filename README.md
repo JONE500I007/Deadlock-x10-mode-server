@@ -8,7 +8,7 @@ CC protection, heroes deal 65% less damage to objectives ...).
 Requirements
 1. Windows 10/11, Deadlock installed through Steam
 2. .NET Runtime 10 (x64): https://dotnet.microsoft.com/download/dotnet/10.0 (setup checks it)
-3. Deadworks (server plugin loader), Windows release zip: download it from the
+3. Deadworks (server plugin loader), Windows release zip: download it from the https://deadworks.net/
    Deadworks release page and put the zip in this folder (not included in this kit)
 
 First time
