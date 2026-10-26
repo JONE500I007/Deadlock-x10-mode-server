@@ -1,5 +1,4 @@
 # Deadlock x10 - Server Kit
-
 This kit runs a Deadlock x10 server on your PC. Friends join through Steam,
 no port forwarding needed. You get everything the mod can do, including the
 server-only parts (Solomon 11 bishops, Mirage/Apollo 10 recasts, 3s respawn,
@@ -8,14 +7,14 @@ CC protection, heroes deal 65% less damage to objectives ...).
 Requirements
 1. Windows 10/11, Deadlock installed through Steam
 2. .NET Runtime 10 (x64): https://dotnet.microsoft.com/download/dotnet/10.0 (setup checks it)
-3. Deadworks (server plugin loader), Windows release zip: download it from the https://deadworks.net/
-   Deadworks release page and put the zip in this folder (not included in this kit)
+3. Deadworks (server plugin loader): https://deadworks.net/
+   The setup downloads the latest release from Deadworks' GitHub for you (internet needed).
+   If that fails: download the Windows zip yourself and put it in this folder.
 
 First time
 1. Unzip this kit anywhere
-2. Put deadworks-....zip in the same folder
-3. Close Deadlock, then double-click  setup_server.bat
-   It finds Deadlock, installs Deadworks, the x10 plugin and the x10 mod (unless
+2. Close Deadlock, then double-click  setup_server.bat
+   It finds Deadlock, downloads and installs Deadworks, the x10 plugin and the x10 mod (unless
    Deadlock Mod Manager already installed it) and adds 2 lines to gameinfo.gi so
    friends can join over Steam (backup: gameinfo.gi.before_x10)
 
@@ -33,6 +32,5 @@ Settings: Deadlock\game\bin\win64\configs\X10ServerPlugin\X10ServerPlugin.jsonc
 After editing, type  dw_reloadconfig  in the server window. Setup never
 overwrites it: delete it and run setup again to get the defaults back.
 
-After a game update: run setup_server.bat again. If Deadworks does not support
-the new game version yet, wait for a Deadworks update.
-
+After a game update: run setup_server.bat again (it also updates Deadworks to the latest
+release). If Deadworks does not support the new game version yet, wait for a Deadworks update.
