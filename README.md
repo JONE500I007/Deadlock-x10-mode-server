@@ -7,9 +7,13 @@ CC protection, heroes deal 65% less damage to objectives ...).
 Requirements
 1. Windows 10/11, Deadlock installed through Steam
 2. .NET Runtime 10 (x64): https://dotnet.microsoft.com/download/dotnet/10.0 (setup checks it)
-3. Deadworks (server plugin loader): https://deadworks.net/
-   The setup downloads the latest release from Deadworks' GitHub for you (internet needed).
-   If that fails: download the Windows zip yourself and put it in this folder.
+3. Deadworks (server plugin loader)
+   - Website:          https://deadworks.net/
+   - Server download:  https://github.com/Deadworks-net/deadworks/releases
+     (deadworks-vX.X.X.zip under "Assets" of the latest release)
+   The setup downloads the latest release from that page by itself (needs internet), so usually you don't.
+   If that fails: download deadworks-vX.X.X.zip from the link above, put it in this folder, run the setup again.
+   (The "DOWNLOAD CLIENT" button on deadworks.net is the players' launcher, not the server.)
 
 First time
 1. Unzip this kit anywhere
